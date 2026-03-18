@@ -3,26 +3,18 @@
 [features]
 resolution = true
 skip-lint = false
-
 [programs.devnet]
 svs_1 = "Bv8aVSQ3DJUe3B7TqQZRZgrNvVTh8TjfpwpoeR1ckDMC"
 svs_2 = "3UrYrxh1HmVgq7WPygZ5x1gNEaWFwqTMs7geNqMnsrtD"
 svs_3 = "EcpnYtaCBrZ4p4uq7dDr55D3fL9nsxbCNqpyUREGpPkh"
-svs_4 = "2WP7LXWqrp1W4CwEJuVt2SxWPNY2n6AYmijh6Z4EeidY"
-
+svs_4 = "J8X6i6YCXet3dQh7PxRik3q45BPCAfWJNKq4bKVCgvE5"
+svs_9 = "9JuGhpA1n6MmTx8dCyM7JcN2QH2okjeFXwuGAzFS3rQC"
 [programs.localnet]
-svs_1 = "Bv8aVSQ3DJUe3B7TqQZRZgrNvVTh8TjfpwpoeR1ckDMC"
-svs_2 = "3UrYrxh1HmVgq7WPygZ5x1gNEaWFwqTMs7geNqMnsrtD"
-svs_3 = "EcpnYtaCBrZ4p4uq7dDr55D3fL9nsxbCNqpyUREGpPkh"
-svs_4 = "2WP7LXWqrp1W4CwEJuVt2SxWPNY2n6AYmijh6Z4EeidY"
-
 [registry]
 url = "https://api.apr.dev"
-
 [provider]
 cluster = "localnet"
 wallet = "~/.config/solana/id.json"
-
 [scripts]
 # Run all tests: anchor test
 # Run specific file: anchor test -- tests/svs-1.ts
